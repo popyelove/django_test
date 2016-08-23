@@ -8,7 +8,7 @@ from django.http import HttpResponse
 from app.models import Person
 def index(request):
     c=[1,2,5]
-    return HttpResponse(c[0])
+    return HttpResponse(c[2])
 def add(re):
     a=re.GET['a']
     b=re.GET['b']
